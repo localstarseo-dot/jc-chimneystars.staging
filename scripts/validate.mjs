@@ -8,7 +8,7 @@ const read = name => readFileSync(path.join(root, name), 'utf8');
 let page = read('src/pages/home.html');
 for (const name of ['site-header', 'site-footer']) page = page.replace(`{{${name}}}`, () => read(`src/components/${name}.html`).trim());
 assert.equal(read('index.html'), read('src/document.html').replace('{{page}}', () => page.trim()), 'Run npm run build: HTML is stale');
-for (const [built, source] of [['styles/site-v2.css', 'src/styles/site.css'], ['scripts/site.js', 'src/scripts/site.js']]) assert.equal(read(built), read(source), `${built} is stale`);
+for (const [built, source] of [['styles/site-v3.css', 'src/styles/site.css'], ['scripts/site.js', 'src/scripts/site.js']]) assert.equal(read(built), read(source), `${built} is stale`);
 const html = read('index.html');
 assert.match(html, /name="robots" content="noindex, nofollow"/);
 assert(!/cs-nav-asset-icon/.test(html), 'Navigation icons returned');
@@ -23,7 +23,7 @@ const check = (ref, base) => {
   assert(existsSync(path.resolve(root, base, clean)), `Missing local file: ${ref}`);
 };
 for (const match of html.matchAll(/(?:src|href)="([^"]+)"/g)) check(match[1], '.');
-for (const match of read('styles/site-v2.css').matchAll(/url\(\s*['"]?([^'"\s)]+)['"]?\s*\)/g)) check(match[1], 'styles');
+for (const match of read('styles/site-v3.css').matchAll(/url\(\s*['"]?([^'"\s)]+)['"]?\s*\)/g)) check(match[1], 'styles');
 const manifest = JSON.parse(read('docs/asset-manifest.json'));
 for (const asset of manifest.images) assert(existsSync(path.join(root, asset.packaged)), asset.packaged);
 console.log(`PASS: reproducible build, JavaScript syntax, staging noindex, navigation, official star and ${manifest.images.length} assets. External services and WordPress remain separate checks.`);

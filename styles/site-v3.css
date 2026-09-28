@@ -204,7 +204,7 @@
 
     .cs-home-hero__title span {
       display: block;
-      color: var(--cs-white);
+      color: var(--cs-red-bright);
     }
 
 
@@ -745,7 +745,7 @@
 
       letter-spacing: -2px;
 
-      color: var(--cs-red-bright);
+      color: var(--cs-white);
     }
 
     .cs-metric__label {
