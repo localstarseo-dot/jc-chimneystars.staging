@@ -1,0 +1,12 @@
+{
+  "name": "chimney-stars-staging",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-first Chimney Star staging and WordPress migration source",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "preview": "python3 -m http.server 8766 --bind 127.0.0.1"
+  },
+  "engines": { "node": ">=20" }
+}

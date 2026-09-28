@@ -1,0 +1,652 @@
+{
+  "source_document": "chimney-stars.html",
+  "asset_count": 37,
+  "source_asset_bytes": 25354749,
+  "packaged_asset_bytes": 1712831,
+  "images": [
+    {
+      "source": "assets/brand/Chimney Star Monochrome Logo (1).png",
+      "packaged": "assets/brand/chimney-star-monochrome-logo-1.png",
+      "width": 800,
+      "height": 800,
+      "source_bytes": 453714,
+      "packaged_bytes": 186979,
+      "sha256": "b13f983cafbe490df4b0f691be734791a56b2f18b5ceb7ed5bdc0c2779152fa3"
+    },
+    {
+      "source": "assets/brand/footer-monochrome-1.png",
+      "packaged": "assets/brand/footer-monochrome-1.webp",
+      "width": 240,
+      "height": 160,
+      "source_bytes": 20028,
+      "packaged_bytes": 6628,
+      "sha256": "e85c9a756981163a95c3a3268c07d21a74b59cc473edd1c57af2e4fb71f53b4e"
+    },
+    {
+      "source": "assets/brand/footer-monochrome-2.png",
+      "packaged": "assets/brand/footer-monochrome-2.webp",
+      "width": 160,
+      "height": 160,
+      "source_bytes": 23222,
+      "packaged_bytes": 9152,
+      "sha256": "deadf31093f6449e87e9136154682b5c054a5a65287beede6b2f16e779a957a0"
+    },
+    {
+      "source": "assets/brand/footer-monochrome-3.png",
+      "packaged": "assets/brand/footer-monochrome-3.webp",
+      "width": 120,
+      "height": 160,
+      "source_bytes": 12452,
+      "packaged_bytes": 3778,
+      "sha256": "26e48150435bd28ece3753642be31a56bd68b2ad8b5d743e839bc5e42cbe00fd"
+    },
+    {
+      "source": "assets/brand/footer-monochrome-4.png",
+      "packaged": "assets/brand/footer-monochrome-4.webp",
+      "width": 160,
+      "height": 160,
+      "source_bytes": 25165,
+      "packaged_bytes": 9518,
+      "sha256": "29afe7e2a9ebe15df3c50145bdd91c093304b8c739a49ef3b3b4ce571cffe783"
+    },
+    {
+      "source": "assets/brand/footer-monochrome-5.png",
+      "packaged": "assets/brand/footer-monochrome-5.webp",
+      "width": 320,
+      "height": 160,
+      "source_bytes": 32425,
+      "packaged_bytes": 9270,
+      "sha256": "cfa2b617b165f67b1a9e021daf1f58ff0786c06340dae9c50b8fd9fd03a5d518"
+    },
+    {
+      "source": "assets/brand/footer-monochrome-logo.png",
+      "packaged": "assets/brand/footer-monochrome-logo.webp",
+      "width": 440,
+      "height": 146,
+      "source_bytes": 22065,
+      "packaged_bytes": 6510,
+      "sha256": "c3fc0a7d2b6f93461c5fd0a6a92546d2dd7b0fbcfc1ffd8aa97b2715907f2dde"
+    },
+    {
+      "source": "assets/brand/header-logo.png",
+      "packaged": "assets/brand/header-logo.webp",
+      "width": 520,
+      "height": 173,
+      "source_bytes": 39985,
+      "packaged_bytes": 11946,
+      "sha256": "1db1e4a351e4d875a8b62a3c91fe386a7f87ee2b53732b5a78af268c1db433e5"
+    },
+    {
+      "source": "assets/brand/logo1.png",
+      "packaged": "assets/brand/logo1.webp",
+      "width": 160,
+      "height": 160,
+      "source_bytes": 491906,
+      "packaged_bytes": 6218,
+      "sha256": "357a8cd65c1dce137d600dda2dfed63102c455a09b6c2654b03f4575dc3bcbcc"
+    },
+    {
+      "source": "assets/brand/trust-badge-NFPA.webp",
+      "packaged": "assets/brand/trust-badge-nfpa.webp",
+      "width": 280,
+      "height": 318,
+      "source_bytes": 48896,
+      "packaged_bytes": 8472,
+      "sha256": "49a513026e4206499f6a7b786b62bb8ab505030362bf532883adc8a61dc09c2a"
+    },
+    {
+      "source": "assets/brand/trust-badge-ccs.webp",
+      "packaged": "assets/brand/trust-badge-ccs.webp",
+      "width": 280,
+      "height": 279,
+      "source_bytes": 51418,
+      "packaged_bytes": 15380,
+      "sha256": "fb57319a64c8a2b120c245aac8567452d0a52a4a36a53e1acb0f314151351950"
+    },
+    {
+      "source": "assets/brand/trust-badge-green-check.webp",
+      "packaged": "assets/brand/trust-badge-green-check.webp",
+      "width": 280,
+      "height": 280,
+      "source_bytes": 778006,
+      "packaged_bytes": 19844,
+      "sha256": "f164884ba559e71bb90fdadee1470f22e62911602b1fe3a184e89b25171493c3"
+    },
+    {
+      "source": "assets/brand/trust-badges-CERC.webp",
+      "packaged": "assets/brand/trust-badges-cerc.webp",
+      "width": 280,
+      "height": 280,
+      "source_bytes": 1023346,
+      "packaged_bytes": 25638,
+      "sha256": "d06a58303d2feeb7a68fbb5e0c762e437ff8bab047902f49336a1148eb341bd5"
+    },
+    {
+      "source": "assets/photos/Before And After/Chimney Blockage : Nest Removal After.png",
+      "packaged": "assets/photos/chimney-blockage-nest-removal-after.webp",
+      "width": 900,
+      "height": 675,
+      "source_bytes": 408590,
+      "packaged_bytes": 126120,
+      "sha256": "28c2002eb819371b26b5dd1309dfd705faf9520d49e159e5d92602be26dca43c"
+    },
+    {
+      "source": "assets/photos/Before And After/Chimney Leak : Water-Damage Restoration After.png",
+      "packaged": "assets/photos/chimney-leak-water-damage-restoration-after.webp",
+      "width": 900,
+      "height": 675,
+      "source_bytes": 270487,
+      "packaged_bytes": 63862,
+      "sha256": "0ebb8737c19c63996d1791f867164a5cbdd7064a7033e186a50175f82da74b2c"
+    },
+    {
+      "source": "assets/photos/Before And After/Chimney Sweep : Chimney Cleaning After.png",
+      "packaged": "assets/photos/chimney-sweep-chimney-cleaning-after.webp",
+      "width": 675,
+      "height": 900,
+      "source_bytes": 325128,
+      "packaged_bytes": 120430,
+      "sha256": "b62333d281671e1ba192511dd4d40e91df4fa253fb912deb7a1baafdb942cf4c"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-01.png",
+      "packaged": "assets/photos/chimney-star-team-photo-01.webp",
+      "width": 1200,
+      "height": 675,
+      "source_bytes": 2223561,
+      "packaged_bytes": 136588,
+      "sha256": "0729cb56bc85ac681e3c42ab95cdc8b4c268702b406a484c533bd367dc3316ac"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_fireplace_service.png",
+      "packaged": "assets/photos/chimney-star-fireplace-service.webp",
+      "width": 900,
+      "height": 675,
+      "source_bytes": 2461943,
+      "packaged_bytes": 114560,
+      "sha256": "0893b9f870089d50d2f5aecbe81c74b49cb14d45965508bc7ec73f3b34e6bc11"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_flashing_repair_crew.png",
+      "packaged": "assets/photos/chimney-star-flashing-repair-crew.webp",
+      "width": 900,
+      "height": 675,
+      "source_bytes": 2484083,
+      "packaged_bytes": 127440,
+      "sha256": "1bcf03f933c8d3e29eecc175924b6e4f96fde6e1b989f9db757f619f38a89ad3"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_rooftop_repair_crew.png",
+      "packaged": "assets/photos/chimney-star-rooftop-repair-crew.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2683192,
+      "packaged_bytes": 286198,
+      "sha256": "9d954bc7d6c4bd3b6db03a6ba04915cc850e0156a42a9c8255fecc50385099ff"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_technicians_repairing_a_crown.png",
+      "packaged": "assets/photos/chimney-star-technicians-repairing-a-crown.webp",
+      "width": 900,
+      "height": 675,
+      "source_bytes": 2555150,
+      "packaged_bytes": 134164,
+      "sha256": "b9b8ff1ddf6487eff42c7a10aaa342aec2bd86e3a2ff6ff69e31e0fc330c3559"
+    },
+    {
+      "source": "assets/photos/Black Uniform/laundry_vent_cleaning_consultation.png",
+      "packaged": "assets/photos/laundry-vent-cleaning-consultation.webp",
+      "width": 900,
+      "height": 675,
+      "source_bytes": 2265817,
+      "packaged_bytes": 94026,
+      "sha256": "794b27ce9b33686af6ab8216428655e4f57c80ff1b6f81365a2c86170b07e69b"
+    },
+    {
+      "source": "assets/photos/Black Uniform/technician_explains_chimney_inspection.png",
+      "packaged": "assets/photos/technician-explains-chimney-inspection.webp",
+      "width": 900,
+      "height": 675,
+      "source_bytes": 2371637,
+      "packaged_bytes": 117486,
+      "sha256": "8e2eaf087ea424535108c53fee074619dc87929e241c23ff1941230868c27bab"
+    },
+    {
+      "source": "assets/photos/Website Icons/appointment-scheduling-icon.png",
+      "packaged": "assets/icons/appointment-scheduling-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 452624,
+      "packaged_bytes": 6972,
+      "sha256": "667652d3a59fe0dc72f44329bf5fcd3ad68b50445a5b75857d213fbcb6a0861c"
+    },
+    {
+      "source": "assets/photos/Website Icons/chimney-cap-icon.png",
+      "packaged": "assets/icons/chimney-cap-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 247221,
+      "packaged_bytes": 3514,
+      "sha256": "d608de31cbb19813a21155db6fe781ba7ac449e9630d5b3998d7211b827dd222"
+    },
+    {
+      "source": "assets/photos/Website Icons/chimney-inspection-icon.png",
+      "packaged": "assets/icons/chimney-inspection-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 245772,
+      "packaged_bytes": 4386,
+      "sha256": "5caa1ff28b0a500deae2a6b618e6eff5ada10badd6067a3b81c41e3dcfd487fb"
+    },
+    {
+      "source": "assets/photos/Website Icons/chimney-leak-repair-icon.png",
+      "packaged": "assets/icons/chimney-leak-repair-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 278970,
+      "packaged_bytes": 4964,
+      "sha256": "80a20a530048e25452e74d32b44469d9f13a1b3a5b2ba1d87ef2286f845741e3"
+    },
+    {
+      "source": "assets/photos/Website Icons/chimney-repair-icon.png",
+      "packaged": "assets/icons/chimney-repair-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 257025,
+      "packaged_bytes": 4006,
+      "sha256": "794a5fdda874d4000fa2a50ce4685602c9af0e2cd8290d5115159999a6ad2b72"
+    },
+    {
+      "source": "assets/photos/Website Icons/chimney-sweep-icon.png",
+      "packaged": "assets/icons/chimney-sweep-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 331836,
+      "packaged_bytes": 5544,
+      "sha256": "3ef3dc53222f591ccff343c334dd21f9ef87cda08f4188ab4768d86f1d167c1b"
+    },
+    {
+      "source": "assets/photos/Website Icons/clean-work-area-icon.png",
+      "packaged": "assets/icons/clean-work-area-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 300778,
+      "packaged_bytes": 5844,
+      "sha256": "a46aef02e4ea49fa50710d973cbe8e4463e8d0a2835cbf254237ca1a39347b5b"
+    },
+    {
+      "source": "assets/photos/Website Icons/dryer-vent-cleaning-icon.png",
+      "packaged": "assets/icons/dryer-vent-cleaning-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 264591,
+      "packaged_bytes": 4846,
+      "sha256": "f2434890043ef844d4488a74c1318355f821aabc3ecfa9df79f0a1e7553f79a3"
+    },
+    {
+      "source": "assets/photos/Website Icons/fireplace-repair-icon.png",
+      "packaged": "assets/icons/fireplace-repair-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 244755,
+      "packaged_bytes": 3452,
+      "sha256": "a3f615370ea3e6af983e376b47db537d00fbea84d09b8284f2e6b53f29cbe0bd"
+    },
+    {
+      "source": "assets/photos/Website Icons/local-austin-team-icon.png",
+      "packaged": "assets/icons/local-austin-team-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 286961,
+      "packaged_bytes": 5790,
+      "sha256": "de4868c855deb9c685848f05e1b7ccd8150732d2f806fff53eff150f9ddda68d"
+    },
+    {
+      "source": "assets/photos/Website Icons/masonry-repair-icon.png",
+      "packaged": "assets/icons/masonry-repair-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 327985,
+      "packaged_bytes": 4266,
+      "sha256": "6d461c290b8f2fe662d6602bb7637ab61e5ef8726b5bbbc51326a44e7e072839"
+    },
+    {
+      "source": "assets/photos/Website Icons/quality-workmanship-icon.png",
+      "packaged": "assets/icons/quality-workmanship-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 337708,
+      "packaged_bytes": 5644,
+      "sha256": "4eb2d320730841ba78e8991d58cb87b1693660f70ab734a8b806c11e49bb7a6b"
+    },
+    {
+      "source": "assets/photos/Website Icons/safety-first-icon.png",
+      "packaged": "assets/icons/safety-first-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 358806,
+      "packaged_bytes": 6252,
+      "sha256": "dc4df34b247e513b26588caafdf632e8fd525ac73c366cf5fa671bdcd56c00e5"
+    },
+    {
+      "source": "assets/photos/Website Icons/upfront-pricing-icon.png",
+      "packaged": "assets/icons/upfront-pricing-icon.webp",
+      "width": 144,
+      "height": 144,
+      "source_bytes": 347501,
+      "packaged_bytes": 7144,
+      "sha256": "8fbff99cfca79e154d5b9cf1393d2daaa93565a729f833ecfbeaf98dee386284"
+    }
+  ],
+  "adapted_links": [
+    {
+      "source": "/book-online/",
+      "packaged": "https://chimney-star.com/book-online/"
+    },
+    {
+      "source": "/",
+      "packaged": "./"
+    },
+    {
+      "source": "/about/",
+      "packaged": "https://chimney-star.com/about/"
+    },
+    {
+      "source": "/roofing-services/",
+      "packaged": "https://chimney-star.com/roofing-services/"
+    },
+    {
+      "source": "/roofing-services/leak-repair/",
+      "packaged": "https://chimney-star.com/roofing-services/leak-repair/"
+    },
+    {
+      "source": "/roofing-services/hail-damage/",
+      "packaged": "https://chimney-star.com/roofing-services/hail-damage/"
+    },
+    {
+      "source": "/chimney-services/",
+      "packaged": "https://chimney-star.com/chimney-services/"
+    },
+    {
+      "source": "/chimney-services/repair/leak/",
+      "packaged": "https://chimney-star.com/chimney-services/repair/leak/"
+    },
+    {
+      "source": "/chimney-services/cleaning/",
+      "packaged": "https://chimney-star.com/chimney-services/cleaning/"
+    },
+    {
+      "source": "/chimney-services/inspection/",
+      "packaged": "https://chimney-star.com/chimney-services/inspection/"
+    },
+    {
+      "source": "/chimney-services/rebuild/",
+      "packaged": "https://chimney-star.com/chimney-services/rebuild/"
+    },
+    {
+      "source": "/chimney-services/fireplace/",
+      "packaged": "https://chimney-star.com/chimney-services/fireplace/"
+    },
+    {
+      "source": "/fireplace-services/gas-repair/",
+      "packaged": "https://chimney-star.com/fireplace-services/gas-repair/"
+    },
+    {
+      "source": "/fireplace-services/firebox-masonry-repair/",
+      "packaged": "https://chimney-star.com/fireplace-services/firebox-masonry-repair/"
+    },
+    {
+      "source": "/fireplace-services/cleaning/",
+      "packaged": "https://chimney-star.com/fireplace-services/cleaning/"
+    },
+    {
+      "source": "/air-duct-services/",
+      "packaged": "https://chimney-star.com/air-duct-services/"
+    },
+    {
+      "source": "/air-duct-cleaning/",
+      "packaged": "https://chimney-star.com/air-duct-cleaning/"
+    },
+    {
+      "source": "/dryer-vent-services/",
+      "packaged": "https://chimney-star.com/dryer-vent-services/"
+    },
+    {
+      "source": "/air-duct-services/inspection/",
+      "packaged": "https://chimney-star.com/air-duct-services/inspection/"
+    },
+    {
+      "source": "/locations/austin/",
+      "packaged": "https://chimney-star.com/locations/austin/"
+    },
+    {
+      "source": "/locations/round-rock/",
+      "packaged": "https://chimney-star.com/locations/round-rock/"
+    },
+    {
+      "source": "/locations/cedar-park/",
+      "packaged": "https://chimney-star.com/locations/cedar-park/"
+    },
+    {
+      "source": "/locations/georgetown/",
+      "packaged": "https://chimney-star.com/locations/georgetown/"
+    },
+    {
+      "source": "/locations/pflugerville/",
+      "packaged": "https://chimney-star.com/locations/pflugerville/"
+    },
+    {
+      "source": "/locations/",
+      "packaged": "https://chimney-star.com/locations/"
+    },
+    {
+      "source": "/reviews/",
+      "packaged": "https://chimney-star.com/reviews/"
+    },
+    {
+      "source": "/blog/",
+      "packaged": "https://chimney-star.com/blog/"
+    },
+    {
+      "source": "/contact/",
+      "packaged": "https://chimney-star.com/contact/"
+    },
+    {
+      "source": "/services/",
+      "packaged": "https://chimney-star.com/services/"
+    },
+    {
+      "source": "/services/#chimney-leak-repair",
+      "packaged": "https://chimney-star.com/services/#chimney-leak-repair"
+    },
+    {
+      "source": "/services/#crown-cap-repairs",
+      "packaged": "https://chimney-star.com/services/#crown-cap-repairs"
+    },
+    {
+      "source": "/services/#chimney-inspection",
+      "packaged": "https://chimney-star.com/services/#chimney-inspection"
+    },
+    {
+      "source": "/services/#chimney-sweep",
+      "packaged": "https://chimney-star.com/services/#chimney-sweep"
+    },
+    {
+      "source": "/services/#dryer-vent-cleaning",
+      "packaged": "https://chimney-star.com/services/#dryer-vent-cleaning"
+    },
+    {
+      "source": "/services/#animal-removal",
+      "packaged": "https://chimney-star.com/services/#animal-removal"
+    },
+    {
+      "source": "/services/#flashing-brick-sealing",
+      "packaged": "https://chimney-star.com/services/#flashing-brick-sealing"
+    },
+    {
+      "source": "/services/#gas-logs-fireplaces",
+      "packaged": "https://chimney-star.com/services/#gas-logs-fireplaces"
+    },
+    {
+      "source": "/service-areas/",
+      "packaged": "https://chimney-star.com/service-areas/"
+    },
+    {
+      "source": "/service-areas/travis-county/",
+      "packaged": "https://chimney-star.com/service-areas/travis-county/"
+    },
+    {
+      "source": "/service-areas/austin/",
+      "packaged": "https://chimney-star.com/service-areas/austin/"
+    },
+    {
+      "source": "/service-areas/pflugerville/",
+      "packaged": "https://chimney-star.com/service-areas/pflugerville/"
+    },
+    {
+      "source": "/service-areas/lakeway/",
+      "packaged": "https://chimney-star.com/service-areas/lakeway/"
+    },
+    {
+      "source": "/service-areas/bee-cave/",
+      "packaged": "https://chimney-star.com/service-areas/bee-cave/"
+    },
+    {
+      "source": "/service-areas/williamson-county/",
+      "packaged": "https://chimney-star.com/service-areas/williamson-county/"
+    },
+    {
+      "source": "/service-areas/round-rock/",
+      "packaged": "https://chimney-star.com/service-areas/round-rock/"
+    },
+    {
+      "source": "/service-areas/cedar-park/",
+      "packaged": "https://chimney-star.com/service-areas/cedar-park/"
+    },
+    {
+      "source": "/service-areas/georgetown/",
+      "packaged": "https://chimney-star.com/service-areas/georgetown/"
+    },
+    {
+      "source": "/service-areas/leander/",
+      "packaged": "https://chimney-star.com/service-areas/leander/"
+    },
+    {
+      "source": "/service-areas/hays-county/",
+      "packaged": "https://chimney-star.com/service-areas/hays-county/"
+    },
+    {
+      "source": "/service-areas/buda/",
+      "packaged": "https://chimney-star.com/service-areas/buda/"
+    },
+    {
+      "source": "/service-areas/kyle/",
+      "packaged": "https://chimney-star.com/service-areas/kyle/"
+    },
+    {
+      "source": "/service-areas/dripping-springs/",
+      "packaged": "https://chimney-star.com/service-areas/dripping-springs/"
+    },
+    {
+      "source": "../contact/",
+      "packaged": "https://chimney-star.com/contact/"
+    },
+    {
+      "source": "../",
+      "packaged": "./"
+    },
+    {
+      "source": "../chimney-services/cleaning/",
+      "packaged": "https://chimney-star.com/chimney-services/cleaning/"
+    },
+    {
+      "source": "../chimney-services/inspection/",
+      "packaged": "https://chimney-star.com/chimney-services/inspection/"
+    },
+    {
+      "source": "../chimney-services/repair/",
+      "packaged": "https://chimney-star.com/chimney-services/repair/"
+    },
+    {
+      "source": "../chimney-services/rebuild/",
+      "packaged": "https://chimney-star.com/chimney-services/rebuild/"
+    },
+    {
+      "source": "../fireplace-services/",
+      "packaged": "https://chimney-star.com/fireplace-services/"
+    },
+    {
+      "source": "../air-duct-services/",
+      "packaged": "https://chimney-star.com/air-duct-services/"
+    },
+    {
+      "source": "../dryer-vent-services/",
+      "packaged": "https://chimney-star.com/dryer-vent-services/"
+    },
+    {
+      "source": "../service-areas/austin/",
+      "packaged": "https://chimney-star.com/service-areas/austin/"
+    },
+    {
+      "source": "../service-areas/round-rock/",
+      "packaged": "https://chimney-star.com/service-areas/round-rock/"
+    },
+    {
+      "source": "../service-areas/cedar-park/",
+      "packaged": "https://chimney-star.com/service-areas/cedar-park/"
+    },
+    {
+      "source": "../service-areas/georgetown/",
+      "packaged": "https://chimney-star.com/service-areas/georgetown/"
+    },
+    {
+      "source": "../service-areas/pflugerville/",
+      "packaged": "https://chimney-star.com/service-areas/pflugerville/"
+    },
+    {
+      "source": "../service-areas/leander/",
+      "packaged": "https://chimney-star.com/service-areas/leander/"
+    },
+    {
+      "source": "../service-areas/",
+      "packaged": "https://chimney-star.com/service-areas/"
+    },
+    {
+      "source": "../about/",
+      "packaged": "https://chimney-star.com/about/"
+    },
+    {
+      "source": "../about/team/",
+      "packaged": "https://chimney-star.com/about/team/"
+    },
+    {
+      "source": "../reviews/",
+      "packaged": "https://chimney-star.com/reviews/"
+    },
+    {
+      "source": "../blog/",
+      "packaged": "https://chimney-star.com/blog/"
+    },
+    {
+      "source": "../faqs/",
+      "packaged": "https://chimney-star.com/faqs/"
+    },
+    {
+      "source": "../careers/",
+      "packaged": "https://chimney-star.com/careers/"
+    },
+    {
+      "source": "../privacy-policy/",
+      "packaged": "https://chimney-star.com/privacy-policy/"
+    },
+    {
+      "source": "../terms/",
+      "packaged": "https://chimney-star.com/terms/"
+    }
+  ],
+  "external_rendering_dependencies": [
+    "Google Fonts: Inter and Manrope",
+    "Google Maps iframe"
+  ],
+  "notes": "Existing page content and artwork preserved. Original files are unchanged. Website routes other than Home leave this single-page preview and retain their original destination paths on chimney-star.com."
+}
