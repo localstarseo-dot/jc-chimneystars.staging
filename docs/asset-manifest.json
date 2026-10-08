@@ -1,8 +1,8 @@
 {
   "source_document": "chimney-stars.html",
-  "asset_count": 37,
-  "source_asset_bytes": 25354749,
-  "packaged_asset_bytes": 1712831,
+  "asset_count": 67,
+  "source_asset_bytes": 86839372,
+  "packaged_asset_bytes": 5934189,
   "images": [
     {
       "source": "assets/brand/Chimney Star Monochrome Logo (1).png",
@@ -336,6 +336,276 @@
       "source_bytes": 347501,
       "packaged_bytes": 7144,
       "sha256": "8fbff99cfca79e154d5b9cf1393d2daaa93565a729f833ecfbeaf98dee386284"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-01.png",
+      "packaged": "assets/photos/hero/chimney-star-team-photo-01.webp",
+      "width": 1448,
+      "height": 815,
+      "source_bytes": 2223561,
+      "packaged_bytes": 141946,
+      "sha256": "ee90117a8875a3450898c6b83e353a8c240d40a6fc19dc67b60a0bd1c835b28e"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-02.png",
+      "packaged": "assets/photos/hero/chimney-star-team-photo-02.webp",
+      "width": 1448,
+      "height": 815,
+      "source_bytes": 2266500,
+      "packaged_bytes": 142436,
+      "sha256": "1930ed40599c101d91082e9c25bde852e239e1136412ffb22d15f749efbbe5c9"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-03.png",
+      "packaged": "assets/photos/hero/chimney-star-team-photo-03.webp",
+      "width": 1448,
+      "height": 815,
+      "source_bytes": 2372627,
+      "packaged_bytes": 156534,
+      "sha256": "17fea217fe6d3bd902bbd9bcb7b2ff515acebd19321846a0d97847a85ab27afb"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-04.png",
+      "packaged": "assets/photos/hero/chimney-star-team-photo-04.webp",
+      "width": 1448,
+      "height": 815,
+      "source_bytes": 2313121,
+      "packaged_bytes": 148914,
+      "sha256": "951f941968b1dfa35d309648d8a3c98a1439c84120c4da247703eb684530c2e6"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-05.png",
+      "packaged": "assets/photos/hero/chimney-star-team-photo-05.webp",
+      "width": 1448,
+      "height": 815,
+      "source_bytes": 2266459,
+      "packaged_bytes": 142292,
+      "sha256": "ff74c6d363d77e361baa401aaaa42eafe913968b13a7635dd9f1ea962d7e2f81"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-06.png",
+      "packaged": "assets/photos/hero/chimney-star-team-photo-06.webp",
+      "width": 1448,
+      "height": 815,
+      "source_bytes": 2374414,
+      "packaged_bytes": 154128,
+      "sha256": "0be0d4d576823187389113b5e877d4c958401500ffbe399be363167f1087a815"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney-star-team-photo-07.png",
+      "packaged": "assets/photos/hero/chimney-star-team-photo-07.webp",
+      "width": 1448,
+      "height": 815,
+      "source_bytes": 2295849,
+      "packaged_bytes": 149922,
+      "sha256": "88e69f6dc70dfd5c99f6829841deaef34b2a7216f88e1588f36b964d19196e32"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_equipment_demonstration_in_driveway.png",
+      "packaged": "assets/photos/hero/chimney-equipment-demonstration-in-driveway.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2388929,
+      "packaged_bytes": 170084,
+      "sha256": "4450e1203f8180406773b1d30c93b715d45104adb1a21c003bb75272fec50887"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_inspection_consultation_by_the_fireplace.png",
+      "packaged": "assets/photos/hero/chimney-inspection-consultation-by-the-fireplace.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2362319,
+      "packaged_bytes": 152970,
+      "sha256": "a1d38d8d16307a6931dff5c8ca7020c8876902c284d159003f7a0aa62f8e449f"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_inspection_results_in_the_driveway.png",
+      "packaged": "assets/photos/hero/chimney-inspection-results-in-the-driveway.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2280922,
+      "packaged_bytes": 151028,
+      "sha256": "52533245bc634bed9fe6956432b839f7aa9ef23c07d2be4725c95330417443cf"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_repair_consultation_outdoors.png",
+      "packaged": "assets/photos/hero/chimney-repair-consultation-outdoors.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2373515,
+      "packaged_bytes": 163350,
+      "sha256": "06868f424689d0312695d05882388ed55cc03c29c9791b80b6237c085f2e108c"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_damper_replacement_service.png",
+      "packaged": "assets/photos/hero/chimney-star-damper-replacement-service.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2367957,
+      "packaged_bytes": 161768,
+      "sha256": "4a3929b540f22483ebfd752edede161e9161eda5ca50c3ef2196024ad2b813b8"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_field_service_prep.png",
+      "packaged": "assets/photos/hero/chimney-star-field-service-prep.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2114502,
+      "packaged_bytes": 127498,
+      "sha256": "6d7069658507119ef7cfa9ecbc5bcc3dc66dac99747d1741c8f4f537c5886e37"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_fireplace_service.png",
+      "packaged": "assets/photos/hero/chimney-star-fireplace-service.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2461943,
+      "packaged_bytes": 179128,
+      "sha256": "86cbd80f4f1f5547714b0d2ffe53910ba3deddbe22304710464198f6e45d58b3"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_flashing_repair_crew.png",
+      "packaged": "assets/photos/hero/chimney-star-flashing-repair-crew.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2484083,
+      "packaged_bytes": 184362,
+      "sha256": "b15bff210fcfb2c5111f25b5dc40cb0127c96353102220ae8be3b67d3fb39ff1"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_home_vent_inspection.png",
+      "packaged": "assets/photos/hero/chimney-star-home-vent-inspection.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2153389,
+      "packaged_bytes": 116556,
+      "sha256": "4fef461322f455af7f8333d3aa9ddd7d197d4da51e5da337b48a1048978a1fc1"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_rooftop_repair_crew.png",
+      "packaged": "assets/photos/hero/chimney-star-rooftop-repair-crew.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2683192,
+      "packaged_bytes": 228654,
+      "sha256": "30f52f4c2b0a7fcb0d188f57d2bae0a0c9e34136fd27ccb73e5272c9c0a5bbbb"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_technicians_at_work.png",
+      "packaged": "assets/photos/hero/chimney-star-technicians-at-work.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2602198,
+      "packaged_bytes": 210394,
+      "sha256": "b68a06a3d79c7f6e450acbbaf7f28af7ea7f9c004fbb4691c127a0f0e1f62c34"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_technicians_prepare_gear.png",
+      "packaged": "assets/photos/hero/chimney-star-technicians-prepare-gear.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2357529,
+      "packaged_bytes": 172912,
+      "sha256": "086aa8154b5d3ca1188f0b891a7039b6a84cd8a64551627641d1303143caafa7"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_technicians_preparing_equipment.png",
+      "packaged": "assets/photos/hero/chimney-star-technicians-preparing-equipment.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2363478,
+      "packaged_bytes": 180870,
+      "sha256": "dfa207076012f48af7598315fc3039c6340de411d8c7ee595a02f21297da88fd"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_technicians_preparing_for_service.png",
+      "packaged": "assets/photos/hero/chimney-star-technicians-preparing-for-service.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2200479,
+      "packaged_bytes": 151174,
+      "sha256": "eaf45495d37cb204c99beac5bad01ba804633ba075fced4f0ba666bb76c9c3b4"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_star_technicians_repairing_a_crown.png",
+      "packaged": "assets/photos/hero/chimney-star-technicians-repairing-a-crown.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2555150,
+      "packaged_bytes": 202628,
+      "sha256": "5f183f6a26cf0f4a18acc14f2de72f1f95d4883099674689469f07249167971a"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_technicians_repairing_fireplace.png",
+      "packaged": "assets/photos/hero/chimney-technicians-repairing-fireplace.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2387034,
+      "packaged_bytes": 160732,
+      "sha256": "c6571e6aabcbd9b77b25ca9d1c2e36c28a3e466b5a1b5820c151747e44421001"
+    },
+    {
+      "source": "assets/photos/Black Uniform/chimney_technicians_replacing_fireplace_damper.png",
+      "packaged": "assets/photos/hero/chimney-technicians-replacing-fireplace-damper.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2328207,
+      "packaged_bytes": 153382,
+      "sha256": "0dfa2d3692c8bf1bf4051a66e4c034de28f3f9f0aac78287006751d4909f4146"
+    },
+    {
+      "source": "assets/photos/Black Uniform/laundry_vent_cleaning_consultation.png",
+      "packaged": "assets/photos/hero/laundry-vent-cleaning-consultation.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2265817,
+      "packaged_bytes": 137512,
+      "sha256": "e880cad57f5b098966cd1739f828b8947dfdf2e2edea5cba80754184061edd18"
+    },
+    {
+      "source": "assets/photos/Black Uniform/technician_explains_chimney_inspection.png",
+      "packaged": "assets/photos/hero/technician-explains-chimney-inspection.webp",
+      "width": 1448,
+      "height": 1086,
+      "source_bytes": 2371637,
+      "packaged_bytes": 166472,
+      "sha256": "eb9a86e753767341f3e21f9c9f6624a7d6734366f74dcc3b75c6a2b62f2b4753"
+    },
+    {
+      "source": "assets/payment-card-logos-svg-webp (1)/visa-color-white-bg.webp",
+      "packaged": "assets/payments/visa-color-white-bg.webp",
+      "width": 160,
+      "height": 104,
+      "source_bytes": 50150,
+      "packaged_bytes": 2478,
+      "sha256": "6f551494a307ce13eec404145a36a48f78557fbd809d2819e1604176080edfd8"
+    },
+    {
+      "source": "assets/payment-card-logos-svg-webp (1)/mastercard-color-transparent.webp",
+      "packaged": "assets/payments/mastercard-color-transparent.webp",
+      "width": 160,
+      "height": 104,
+      "source_bytes": 101040,
+      "packaged_bytes": 5558,
+      "sha256": "fd3d6f524222f3175f22e82391ed64f2d464e8722463f94fc4f8b79472c5d8e0"
+    },
+    {
+      "source": "assets/payment-card-logos-svg-webp (1)/american-express-color-transparent.webp",
+      "packaged": "assets/payments/american-express-color-transparent.webp",
+      "width": 160,
+      "height": 104,
+      "source_bytes": 70742,
+      "packaged_bytes": 3612,
+      "sha256": "bdd51535ad0eeecb7c3eb488c91f9547bf07d80a8c100284901361a5fd85d3b7"
+    },
+    {
+      "source": "assets/payment-card-logos-svg-webp (1)/discover-color-white-bg.webp",
+      "packaged": "assets/payments/discover-color-white-bg.webp",
+      "width": 160,
+      "height": 104,
+      "source_bytes": 47880,
+      "packaged_bytes": 2064,
+      "sha256": "e7cc91fa4cceeef9f6ecb26852abb7babdf2e6b7e74bc7ac13fe3daced77a18c"
     }
   ],
   "adapted_links": [

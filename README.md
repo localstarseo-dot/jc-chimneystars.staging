@@ -9,9 +9,9 @@ Repository: `localstarseo-dot/jc-chimneystars.staging`. This is a static staging
 - `src/components/site-header.html`: shared navigation.
 - `src/components/site-footer.html`: shared footer.
 - `src/styles/site.css`: CSS, in the original cascade order.
-- `src/scripts/site.js`: navigation, timeline and lead-offer interactions.
+- `src/scripts/site.js`: navigation, timeline, hero crossfade and lead-offer interactions.
 - `src/document.html`: document metadata, font loading and template slots.
-- `assets/`: 37 optimized, locally hosted brand/photo assets.
+- `assets/`: 67 optimized, locally hosted brand, photo and payment assets. The hero includes all 26 supplied Chimney Star team/service photos; upcoming slides load individually.
 
 Use Node 20 or newer. No npm dependencies or install step are required. Preview uses Python 3.
 
@@ -21,7 +21,11 @@ npm run validate
 npm run preview
 ```
 
-Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v4.css`, or `scripts/site-v4.js`.
+Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v5.css`, or `scripts/site-v5.js`.
+
+The hero crossfades every three seconds with a one-second transition. It pauses when off-screen, while the lead modal is open, when the tab is hidden, and for reduced-motion preferences. Credential and payment logos share a horizontal centerline, aligned left under the description. Existing hero spacing and mobile placement are retained.
+
+To refresh supplied hero/payment assets, run `node scripts/pack-hero-assets.mjs /path/to/supplied/assets` with Sharp available (or set `JC_SHARP_PATH` to its installed package path). This is an optional asset preparation step; regular builds still have no dependencies. The command also refreshes `docs/asset-manifest.json`.
 
 ## Git and staging
 
