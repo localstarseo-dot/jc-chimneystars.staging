@@ -181,14 +181,16 @@
 
       const bar = document.querySelector("[data-cs-lead-bar]");
       const modal = document.querySelector("[data-cs-lead-modal]");
+      const sticky = document.querySelector("[data-cs-lead-sticky]");
 
-      if (!bar || !modal || modal.dataset.csLeadReady === "true") return;
+      if (!bar || !modal || !sticky || modal.dataset.csLeadReady === "true") return;
 
       modal.dataset.csLeadReady = "true";
 
       const panel = modal.querySelector("[data-cs-lead-panel]");
       const closeButton = modal.querySelector("[data-cs-lead-close]");
       const form = modal.querySelector("[data-cs-preview-form]");
+      const stickyForm = sticky.querySelector("[data-cs-sticky-form]");
       const status = modal.querySelector("[data-cs-lead-status]");
       const resetButton = modal.querySelector("[data-cs-lead-reset]");
       const openButtons = Array.from(document.querySelectorAll("[data-cs-lead-open]"));
@@ -203,6 +205,7 @@
       let invitationTimer = 0;
       let isOpen = false;
       let previousFocus = null;
+      let stickyFrame = 0;
 
       const readExpiry = () => {
         try {
@@ -247,6 +250,32 @@
         document.documentElement.style.setProperty("--cs-lead-bar-height", `${height}px`);
       };
 
+      const syncSticky = () => {
+        stickyFrame = 0;
+
+        const header = document.querySelector("[data-cs-header]");
+        if (!header) return;
+
+        const headerBottom = Math.max(0, Math.ceil(header.getBoundingClientRect().bottom));
+        const menuOpen = header.classList.contains("is-menu-open");
+        const shouldShow = window.scrollY > 300 && !menuOpen && !isOpen;
+
+        document.documentElement.style.setProperty("--cs-lead-sticky-top", `${headerBottom}px`);
+        sticky.classList.toggle("is-visible", shouldShow);
+        sticky.setAttribute("aria-hidden", shouldShow ? "false" : "true");
+
+        if (shouldShow) {
+          sticky.removeAttribute("inert");
+        } else {
+          sticky.setAttribute("inert", "");
+        }
+      };
+
+      const scheduleSticky = () => {
+        if (stickyFrame) return;
+        stickyFrame = window.requestAnimationFrame(syncSticky);
+      };
+
       const focusable = () => {
         return Array.from(
           panel.querySelectorAll("a[href], button, input, select, textarea, [tabindex]")
@@ -282,6 +311,8 @@
           modal.classList.add("is-open");
           closeButton.focus({ preventScroll: true });
         });
+
+        scheduleSticky();
       };
 
       const closeModal = (restoreFocus = true) => {
@@ -305,6 +336,8 @@
         if (restoreFocus && previousFocus && previousFocus.isConnected) {
           previousFocus.focus({ preventScroll: true });
         }
+
+        scheduleSticky();
       };
 
       openButtons.forEach((button) => {
@@ -360,6 +393,23 @@
         form.hidden = true;
         status.hidden = false;
         resetButton.focus();
+      });
+
+      stickyForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        if (!stickyForm.reportValidity()) return;
+
+        const stickyName = stickyForm.elements.namedItem("sticky-name");
+        const stickyPhone = stickyForm.elements.namedItem("sticky-phone");
+        const modalName = form.elements.namedItem("name-1");
+        const modalPhone = form.elements.namedItem("phone-1");
+
+        if (modalName) modalName.value = stickyName.value;
+        if (modalPhone) modalPhone.value = stickyPhone.value;
+
+        stickyForm.reset();
+        openModal();
       });
 
       resetButton.addEventListener("click", () => {
@@ -426,13 +476,20 @@
       });
 
       window.addEventListener("resize", syncBarHeight, { passive: true });
+      window.addEventListener("resize", scheduleSticky, { passive: true });
+      window.addEventListener("scroll", scheduleSticky, { passive: true });
 
       if ("ResizeObserver" in window) {
         const observer = new ResizeObserver(syncBarHeight);
         observer.observe(bar);
+
+        const stickyObserver = new ResizeObserver(scheduleSticky);
+        stickyObserver.observe(bar);
+        stickyObserver.observe(document.querySelector("[data-cs-header]"));
       }
 
       readExpiry();
       tick();
       syncBarHeight();
+      syncSticky();
     })();

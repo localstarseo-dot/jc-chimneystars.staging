@@ -19,6 +19,35 @@
   </button>
 </section>
 
+<section
+  class="cs-lead-sticky"
+  aria-label="Quick service request preview"
+  aria-hidden="true"
+  data-cs-lead-sticky
+  inert
+>
+  <div class="cs-lead-sticky__inner">
+    <div class="cs-lead-sticky__copy">
+      <strong>25% Off Your First Service</strong>
+      <span>Name and phone to get started. Preview only.</span>
+    </div>
+
+    <form class="cs-lead-sticky__form" data-cs-sticky-form>
+      <label>
+        <span class="cs-lead-sr-only">Name</span>
+        <input type="text" name="sticky-name" autocomplete="name" placeholder="Name" aria-label="Name" required>
+      </label>
+      <label>
+        <span class="cs-lead-sr-only">Phone</span>
+        <input type="tel" name="sticky-phone" autocomplete="tel" inputmode="tel" placeholder="Phone" aria-label="Phone" required>
+      </label>
+      <button type="submit">
+        Get Started <span aria-hidden="true">→</span>
+      </button>
+    </form>
+  </div>
+</section>
+
 <div
   class="cs-lead-modal"
   id="cs-lead-offer-modal"

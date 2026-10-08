@@ -14,6 +14,7 @@ assert.match(html, /name="robots" content="noindex, nofollow"/);
 assert(!/cs-nav-asset-icon/.test(html), 'Navigation icons returned');
 assert.match(html, /src="assets\/brand\/logo1.webp"/);
 assert.match(html, /data-cs-lead-modal/);
+assert.match(html, /data-cs-lead-sticky/);
 assert.match(html, /Preview form only\. No lead will be submitted\./);
 assert(!/cs-utility/.test(html), 'Removed utility bar returned');
 assert(!/\/Users\/|127\.0\.0\.1|localhost/.test(html), 'Local-only URL in page');

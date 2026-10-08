@@ -5,7 +5,7 @@ Repository: `localstarseo-dot/jc-chimneystars.staging`. This is a static staging
 ## Edit locally
 
 - `src/pages/home.html`: homepage sections and FAQ structured data.
-- `src/components/lead-offer.html`: reusable offer bar, pop-out and preview lead form.
+- `src/components/lead-offer.html`: reusable offer bar, scroll-activated quick form, pop-out and preview lead form.
 - `src/components/site-header.html`: shared navigation.
 - `src/components/site-footer.html`: shared footer.
 - `src/styles/site.css`: CSS, in the original cascade order.
