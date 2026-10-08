@@ -2978,38 +2978,6 @@
     }
     .admin-bar .cs-site-header { top: var(--wp-admin--admin-bar--height, 32px); }
 
-    .cs-utility {
-      color: #fff;
-      background: var(--cs-navy);
-      border-bottom: 1px solid rgb(255 255 255 / 15%);
-      font-size: 12px;
-      line-height: 1.25;
-    }
-    .cs-utility__inner {
-      min-height: 38px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-    }
-    .cs-utility__group { display: flex; align-items: center; gap: 26px; }
-    .cs-utility__item,
-    .cs-utility__link {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      min-height: 38px;
-      color: #fff;
-      text-decoration: none;
-      white-space: nowrap;
-    }
-    .cs-utility__icon { width: 15px; height: 15px; flex: 0 0 15px; color: var(--cs-gold); }
-    .cs-utility__item:nth-child(2) .cs-utility__icon { color: #ff4050; }
-    .cs-utility__discount { font-weight: 700; }
-    .cs-utility__discount strong { color: var(--cs-gold); }
-    .cs-utility__link:hover,
-    .cs-utility__link:focus-visible { color: var(--cs-gold); }
-
     .cs-header-main { background: #fff; }
     .cs-header-main__inner {
       min-height: 104px;
@@ -3190,9 +3158,6 @@
 
     @media (max-width: 1024px) {
       .cs-header-shell { width: min(calc(100% - 30px), var(--cs-header-shell)); }
-      .cs-utility__inner { justify-content: center; }
-      .cs-utility__group--trust { display: none; }
-      .cs-utility__group--offer { width: 100%; justify-content: center; gap: 20px; }
       .cs-header-main__inner { min-height: 82px; grid-template-columns: minmax(175px, 230px) 1fr auto; }
       .cs-brand img { width: 230px; }
       .cs-menu-toggle { display: inline-flex; grid-column: 3; }
@@ -3250,9 +3215,6 @@
 
     @media (max-width: 680px) {
       .cs-header-shell { width: min(calc(100% - 24px), var(--cs-header-shell)); }
-      .cs-utility { font-size: 11px; }
-      .cs-utility__group--offer { justify-content: space-between; gap: 8px; }
-      .cs-utility__discount { text-align: right; }
       .cs-header-main__inner { min-height: 74px; grid-template-columns: minmax(145px, 205px) 1fr auto; gap: 12px; }
       .cs-brand img { width: 205px; }
       .cs-header-actions { display: none; }
@@ -3275,8 +3237,6 @@
     }
 
     @media (max-width: 520px) {
-      .cs-utility__phone-label { display: none; }
-      .cs-utility__link { min-height: 42px; }
       .cs-header-main__inner { grid-template-columns: minmax(145px, 190px) 1fr auto; }
       .cs-brand img { width: 190px; }
       .cs-mega-menu,
@@ -3287,7 +3247,6 @@
     }
 
     @media (max-width: 360px) {
-      .cs-utility__discount span { display: none; }
       .cs-header-main__inner { grid-template-columns: minmax(130px, 165px) 1fr 48px; }
       .cs-brand img { width: 165px; }
     }
@@ -3496,8 +3455,6 @@
     .cs-site-header .cs-header-button { padding-inline: 14px; }
   }
   @media (min-width: 1025px) and (max-width: 1180px) {
-    .cs-site-header .cs-utility__inner { gap: 14px; }
-    .cs-site-header .cs-utility__group { gap: 12px; }
     .cs-site-header .cs-header-main__inner {
       grid-template-columns: 180px minmax(0, 1fr) auto;
       gap: 12px;
