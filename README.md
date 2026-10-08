@@ -21,7 +21,7 @@ npm run validate
 npm run preview
 ```
 
-Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v3.css`, or `scripts/site.js`.
+Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v4.css`, or `scripts/site-v4.js`.
 
 ## Git and staging
 
