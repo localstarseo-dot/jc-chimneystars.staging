@@ -7,7 +7,8 @@ Repository: `localstarseo-dot/jc-chimneystars.staging`. This is a static staging
 - `src/pages/home.html`: homepage sections and FAQ structured data.
 - `src/components/lead-offer.html`: reusable offer bar, scroll-activated quick form, pop-out and preview lead form.
 - `src/components/site-header.html`: shared navigation.
-- `src/components/site-footer.html`: shared footer.
+- `src/components/site-footer.html`: shared footer, including payment options beneath its trust badges.
+- `src/components/float-actions.html`: persistent red call CTA and navy booking placeholder. Booking is disabled and has no URL until supplied.
 - `src/styles/site.css`: CSS, in the original cascade order.
 - `src/scripts/site.js`: navigation, timeline, hero crossfade and lead-offer interactions.
 - `src/document.html`: document metadata, font loading and template slots.
@@ -21,7 +22,7 @@ npm run validate
 npm run preview
 ```
 
-Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v5.css`, or `scripts/site-v5.js`.
+Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v6.css`, or `scripts/site-v5.js`.
 
 The hero crossfades every three seconds with a one-second transition. It pauses when off-screen, while the lead modal is open, when the tab is hidden, and for reduced-motion preferences. Credential and payment logos share a horizontal centerline, aligned left under the description. Existing hero spacing and mobile placement are retained.
 
