@@ -7469,3 +7469,530 @@
       transition: none !important;
     }
   }
+
+
+  /* =========================================================
+     CHIMNEY STAR LEAD OFFER PREVIEW
+     Top bar + accessible modal + mock Forminator-style form.
+     ========================================================= */
+
+  :root {
+    --cs-lead-bar-height: 44px;
+  }
+
+  html.cs-lead-modal-open,
+  html.cs-lead-modal-open body {
+    overflow: hidden;
+  }
+
+  .cs-lead-offer-bar,
+  .cs-lead-modal {
+    font-family: "Inter", sans-serif;
+  }
+
+  .cs-lead-offer-bar *,
+  .cs-lead-modal * {
+    box-sizing: border-box;
+  }
+
+  .cs-lead-offer-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1100;
+    min-height: 44px;
+    color: #fff;
+    background:
+      linear-gradient(90deg, #a9141c 0%, var(--cs-red) 48%, #a9141c 100%);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    box-shadow: 0 7px 20px rgba(4,19,53,.16);
+  }
+
+  .admin-bar .cs-lead-offer-bar {
+    top: var(--wp-admin--admin-bar--height, 32px);
+  }
+
+  .cs-lead-offer-bar__button {
+    display: flex;
+    width: min(100%, 1160px);
+    min-height: 44px;
+    margin: 0 auto;
+    padding: 8px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(14px, 3vw, 42px);
+    color: #fff;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.35;
+    text-align: center;
+  }
+
+  .cs-lead-offer-bar__button:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: -4px;
+  }
+
+  .cs-lead-offer-bar__offer,
+  .cs-lead-offer-bar__timer,
+  .cs-lead-offer-bar__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .cs-lead-offer-bar__offer {
+    font-weight: 700;
+  }
+
+  .cs-lead-offer-bar__offer strong {
+    padding: 3px 8px;
+    color: var(--cs-navy);
+    background: #fff;
+    border-radius: 999px;
+    font-size: 11px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+
+  .cs-lead-offer-bar__timer {
+    padding-left: clamp(14px, 2.4vw, 34px);
+    border-left: 1px solid rgba(255,255,255,.38);
+    color: rgba(255,255,255,.86);
+    font-size: 11px;
+  }
+
+  .cs-lead-offer-bar__timer b,
+  .cs-lead-modal__timer b {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .cs-lead-offer-bar__cta {
+    font-weight: 800;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+  }
+
+  .cs-lead-offer-bar__cta span {
+    font-size: 16px;
+    transition: transform 180ms ease;
+  }
+
+  .cs-lead-offer-bar__button:hover .cs-lead-offer-bar__cta span {
+    transform: translateX(3px);
+  }
+
+  .cs-site-header {
+    top: var(--cs-lead-bar-height);
+  }
+
+  .admin-bar .cs-site-header {
+    top: calc(var(--wp-admin--admin-bar--height, 32px) + var(--cs-lead-bar-height));
+  }
+
+  .cs-lead-modal[hidden],
+  .cs-lead-modal [hidden] {
+    display: none !important;
+  }
+
+  .cs-lead-modal {
+    position: fixed;
+    z-index: 10000;
+    inset: 0;
+    display: grid;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 22px 16px;
+    place-items: start center;
+    color: var(--cs-charcoal);
+    background: rgba(3,13,38,.78);
+    opacity: 0;
+    transition: opacity 180ms ease;
+  }
+
+  .cs-lead-modal.is-open {
+    opacity: 1;
+  }
+
+  .cs-lead-modal__panel {
+    position: relative;
+    width: min(100%, 610px);
+    margin: max(10px, 3vh) auto 24px;
+    padding: 30px 32px 26px;
+    overflow: hidden;
+    background:
+      linear-gradient(rgba(8,26,74,.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(8,26,74,.035) 1px, transparent 1px),
+      #fff;
+    background-size: 22px 22px;
+    border: 1px solid rgba(255,255,255,.65);
+    border-top: 6px solid var(--cs-red);
+    border-radius: 18px;
+    box-shadow: 0 30px 90px rgba(0,0,0,.42);
+    transform: translateY(14px) scale(.985);
+    transition: transform 220ms cubic-bezier(.22,1,.36,1);
+  }
+
+  .cs-lead-modal.is-open .cs-lead-modal__panel {
+    transform: translateY(0) scale(1);
+  }
+
+  .cs-lead-modal__panel::after {
+    content: "";
+    position: absolute;
+    top: -78px;
+    right: -68px;
+    width: 210px;
+    aspect-ratio: 1;
+    border: 34px solid rgba(8,26,74,.045);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .cs-lead-modal__close {
+    position: absolute;
+    z-index: 2;
+    top: 14px;
+    right: 14px;
+    display: grid;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    place-items: center;
+    color: var(--cs-navy);
+    background: #fff;
+    border: 1px solid #d8e0eb;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .cs-lead-modal__close:hover {
+    color: #fff;
+    background: var(--cs-red);
+    border-color: var(--cs-red);
+  }
+
+  .cs-lead-modal__brand {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    margin: 0 54px 18px 0;
+    align-items: center;
+    gap: 10px;
+    color: var(--cs-navy);
+  }
+
+  .cs-lead-modal__brand > span:last-child {
+    display: grid;
+    gap: 1px;
+  }
+
+  .cs-lead-modal__brand small {
+    color: var(--cs-red);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+
+  .cs-lead-modal__brand strong {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+  }
+
+  .cs-lead-modal__mark {
+    display: grid;
+    width: 48px;
+    height: 48px;
+    flex: 0 0 48px;
+    padding: 5px;
+    place-items: center;
+    background: #fff;
+    border: 1px solid #d9e1ec;
+    border-radius: 50%;
+    box-shadow: 0 5px 14px rgba(8,26,74,.12);
+  }
+
+  .cs-lead-modal__mark img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .cs-lead-modal__eyebrow {
+    margin: 0 0 7px;
+    color: var(--cs-red);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+  }
+
+  #cs-lead-offer-title {
+    max-width: 500px;
+    margin: 0 54px 12px 0;
+    color: var(--cs-navy);
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(27px, 5vw, 38px);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -.035em;
+  }
+
+  .cs-lead-modal__timer {
+    display: inline-flex;
+    margin: 0 0 14px;
+    padding: 7px 11px;
+    align-items: center;
+    gap: 7px;
+    color: var(--cs-red);
+    background: #fff0f1;
+    border: 1px solid #f3c9cc;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .cs-lead-modal__description {
+    max-width: 535px;
+    margin: 0 0 18px;
+    color: #52627a;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .cs-lead-form__preview {
+    margin: 0 0 15px;
+    padding: 9px 12px;
+    color: #5b410d;
+    background: #fff8e9;
+    border: 1px solid #edcf8c;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .cs-lead-form__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+  }
+
+  .cs-lead-field {
+    display: grid;
+    gap: 6px;
+  }
+
+  .cs-lead-field--wide {
+    grid-column: 1 / -1;
+  }
+
+  .cs-lead-field > span {
+    color: var(--cs-navy);
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .cs-lead-field > span b {
+    color: var(--cs-red);
+  }
+
+  .cs-lead-field input,
+  .cs-lead-field select {
+    width: 100%;
+    min-height: 48px;
+    padding: 11px 12px;
+    color: #1c2a41;
+    background: rgba(255,255,255,.94);
+    border: 1px solid #cbd5e2;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  .cs-lead-field input::placeholder {
+    color: #7d899b;
+  }
+
+  .cs-lead-field input:focus,
+  .cs-lead-field select:focus {
+    border-color: var(--cs-navy);
+    outline: 3px solid rgba(8,26,74,.13);
+  }
+
+  .cs-lead-form__submit {
+    display: flex;
+    width: 100%;
+    min-height: 52px;
+    margin-top: 15px;
+    padding: 12px 18px;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    color: #fff;
+    background: var(--cs-red);
+    border: 2px solid var(--cs-red);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: .055em;
+    text-transform: uppercase;
+    box-shadow: 0 9px 20px rgba(201,31,38,.22);
+  }
+
+  .cs-lead-form__submit:hover,
+  .cs-lead-form__submit:focus-visible {
+    color: var(--cs-red);
+    background: #fff;
+  }
+
+  .cs-lead-form__fine-print {
+    margin: 10px 0 0;
+    color: #6b7687;
+    font-size: 10.5px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .cs-lead-modal__status {
+    display: grid;
+    min-height: 190px;
+    padding: 28px 20px;
+    place-items: center;
+    align-content: center;
+    gap: 7px;
+    color: var(--cs-navy);
+    background: #f2f6fb;
+    border: 1px solid #d8e2ef;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .cs-lead-modal__status strong {
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+  }
+
+  .cs-lead-modal__status span {
+    color: #52627a;
+    font-size: 14px;
+  }
+
+  .cs-lead-modal__status button {
+    min-height: 44px;
+    margin-top: 8px;
+    padding: 8px 16px;
+    color: var(--cs-red);
+    background: #fff;
+    border: 1px solid #e1aeb2;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 800;
+  }
+
+  .cs-lead-modal__phone {
+    margin: 15px 0 0;
+    color: #667387;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .cs-lead-modal__phone a {
+    color: var(--cs-red);
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .cs-lead-modal :where(button, input, select, a):focus-visible {
+    outline: 3px solid #65a8ff;
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 640px) {
+    .cs-lead-offer-bar__button {
+      padding-inline: 12px;
+      gap: 8px 13px;
+      flex-wrap: wrap;
+      font-size: 11px;
+    }
+
+    .cs-lead-offer-bar__offer span {
+      display: none;
+    }
+
+    .cs-lead-offer-bar__offer::before {
+      content: "First Visit";
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .cs-lead-offer-bar__timer {
+      padding-left: 13px;
+    }
+
+    .cs-lead-modal {
+      padding: 10px;
+    }
+
+    .cs-lead-modal__panel {
+      margin: 8px auto 18px;
+      padding: 24px 18px 20px;
+      border-radius: 14px;
+    }
+
+    .cs-lead-modal__brand {
+      margin-bottom: 14px;
+    }
+
+    .cs-lead-modal__brand strong {
+      font-size: 12px;
+    }
+
+    .cs-lead-modal__mark {
+      width: 42px;
+      height: 42px;
+      flex-basis: 42px;
+    }
+
+    #cs-lead-offer-title {
+      margin-right: 36px;
+    }
+
+    .cs-lead-form__grid {
+      grid-template-columns: 1fr;
+      gap: 11px;
+    }
+
+    .cs-lead-field--wide {
+      grid-column: auto;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .cs-lead-offer-bar__timer {
+      border-left: 0;
+      padding-left: 0;
+    }
+
+    .cs-lead-offer-bar__timer {
+      font-size: 10px;
+    }
+
+    .cs-lead-offer-bar__cta {
+      font-size: 10px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cs-lead-offer-bar__cta span,
+    .cs-lead-modal,
+    .cs-lead-modal__panel {
+      transition: none;
+    }
+  }

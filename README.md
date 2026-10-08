@@ -5,10 +5,11 @@ Repository: `localstarseo-dot/jc-chimneystars.staging`. This is a static staging
 ## Edit locally
 
 - `src/pages/home.html`: homepage sections and FAQ structured data.
+- `src/components/lead-offer.html`: reusable offer bar, pop-out and preview lead form.
 - `src/components/site-header.html`: shared navigation.
 - `src/components/site-footer.html`: shared footer.
 - `src/styles/site.css`: CSS, in the original cascade order.
-- `src/scripts/site.js`: navigation and timeline interactions.
+- `src/scripts/site.js`: navigation, timeline and lead-offer interactions.
 - `src/document.html`: document metadata, font loading and template slots.
 - `assets/`: 37 optimized, locally hosted brand/photo assets.
 
@@ -20,7 +21,7 @@ npm run validate
 npm run preview
 ```
 
-Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site.css`, or `scripts/site.js`.
+Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v3.css`, or `scripts/site.js`.
 
 ## Git and staging
 
@@ -39,6 +40,8 @@ The generated files are deliberately committed, so GitHub Pages needs no custom 
 Edit source files, not generated files, if working in GitHub's editor. Pull those changes locally and rebuild before publishing. Local-first editing is the simplest workflow. Git stores the history; you do not need to download the site again for WordPress migration.
 
 The staging page has `noindex, nofollow`; this is not access control. A public repository and public Pages site are publicly visible. Google Fonts and Maps still require internet access. Non-homepage navigation points to the existing production website; those pages are not included here.
+
+The lead form is intentionally a non-submitting staging mock. It does not send or retain field data. Before WordPress publication, replace the mock with the confirmed Chimney Star Forminator shortcode and verify consent copy, notifications, CRM delivery, spam protection and one-time analytics events.
 
 ## Recovery and migration
 

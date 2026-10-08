@@ -4,7 +4,7 @@ import path from 'node:path';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = name => readFileSync(path.join(root, name), 'utf8');
 let page = read('src/pages/home.html');
-for (const name of ['site-header', 'site-footer']) {
+for (const name of ['lead-offer', 'site-header', 'site-footer']) {
   page = page.replace(`{{${name}}}`, () => read(`src/components/${name}.html`).trim());
 }
 const html = read('src/document.html').replace('{{page}}', () => page.trim());

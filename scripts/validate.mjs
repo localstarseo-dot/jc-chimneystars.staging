@@ -6,13 +6,15 @@ import vm from 'node:vm';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = name => readFileSync(path.join(root, name), 'utf8');
 let page = read('src/pages/home.html');
-for (const name of ['site-header', 'site-footer']) page = page.replace(`{{${name}}}`, () => read(`src/components/${name}.html`).trim());
+for (const name of ['lead-offer', 'site-header', 'site-footer']) page = page.replace(`{{${name}}}`, () => read(`src/components/${name}.html`).trim());
 assert.equal(read('index.html'), read('src/document.html').replace('{{page}}', () => page.trim()), 'Run npm run build: HTML is stale');
 for (const [built, source] of [['styles/site-v3.css', 'src/styles/site.css'], ['scripts/site.js', 'src/scripts/site.js']]) assert.equal(read(built), read(source), `${built} is stale`);
 const html = read('index.html');
 assert.match(html, /name="robots" content="noindex, nofollow"/);
 assert(!/cs-nav-asset-icon/.test(html), 'Navigation icons returned');
 assert.match(html, /src="assets\/brand\/logo1.webp"/);
+assert.match(html, /data-cs-lead-modal/);
+assert.match(html, /Preview form only\. No lead will be submitted\./);
 assert(!/\/Users\/|127\.0\.0\.1|localhost/.test(html), 'Local-only URL in page');
 new vm.Script(read('scripts/site.js'));
 const check = (ref, base) => {

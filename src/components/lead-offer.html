@@ -1,0 +1,124 @@
+<section class="cs-lead-offer-bar" data-cs-lead-bar aria-label="First-time customer offer">
+  <button
+    class="cs-lead-offer-bar__button"
+    type="button"
+    aria-haspopup="dialog"
+    aria-controls="cs-lead-offer-modal"
+    data-cs-lead-open
+  >
+    <span class="cs-lead-offer-bar__offer">
+      <span>First-Time Customer Discount:</span>
+      <strong>25% Off</strong>
+    </span>
+    <span class="cs-lead-offer-bar__timer" data-cs-lead-clock>
+      Offer timer <b data-cs-lead-timer>59:00</b>
+    </span>
+    <span class="cs-lead-offer-bar__cta">
+      Request an Estimate <span aria-hidden="true">→</span>
+    </span>
+  </button>
+</section>
+
+<div
+  class="cs-lead-modal"
+  id="cs-lead-offer-modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="cs-lead-offer-title"
+  aria-describedby="cs-lead-offer-description"
+  aria-hidden="true"
+  data-cs-lead-modal
+  hidden
+>
+  <div class="cs-lead-modal__panel" tabindex="-1" data-cs-lead-panel>
+    <button
+      class="cs-lead-modal__close"
+      type="button"
+      aria-label="Close offer form"
+      data-cs-lead-close
+    >
+      <span aria-hidden="true">×</span>
+    </button>
+
+    <div class="cs-lead-modal__brand">
+      <span class="cs-lead-modal__mark" aria-hidden="true">
+        <img src="assets/brand/logo1.webp" width="1200" height="1200" alt="">
+      </span>
+      <span>
+        <small>Chimney Star</small>
+        <strong>Austin's Venting Specialists</strong>
+      </span>
+    </div>
+
+    <p class="cs-lead-modal__eyebrow">First-Time Customer Offer</p>
+    <h2 id="cs-lead-offer-title">Save 25% on Your First Service</h2>
+    <p class="cs-lead-modal__timer" data-cs-lead-clock>
+      Offer timer <b data-cs-lead-timer>59:00</b>
+    </p>
+    <p class="cs-lead-modal__description" id="cs-lead-offer-description">
+      Tell us what your home needs. This staging form previews the future
+      Forminator lead flow and does not send or store your information.
+    </p>
+
+    <form class="cs-lead-form" data-cs-preview-form>
+      <div class="cs-lead-form__preview" role="note">
+        Preview form only. No lead will be submitted.
+      </div>
+
+      <div class="cs-lead-form__grid">
+        <label class="cs-lead-field">
+          <span>Name <b aria-hidden="true">*</b></span>
+          <input type="text" name="name-1" autocomplete="name" placeholder="Your name" required>
+        </label>
+
+        <label class="cs-lead-field">
+          <span>Phone <b aria-hidden="true">*</b></span>
+          <input type="tel" name="phone-1" autocomplete="tel" inputmode="tel" placeholder="(512) 555-0123" required>
+        </label>
+
+        <label class="cs-lead-field">
+          <span>Email</span>
+          <input type="email" name="email-1" autocomplete="email" placeholder="you@example.com">
+        </label>
+
+        <label class="cs-lead-field">
+          <span>ZIP Code <b aria-hidden="true">*</b></span>
+          <input type="text" name="zip-1" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="78701" required>
+        </label>
+
+        <label class="cs-lead-field cs-lead-field--wide">
+          <span>Service Needed <b aria-hidden="true">*</b></span>
+          <select name="select-1" required>
+            <option value="">Choose a service</option>
+            <option>Chimney Inspection</option>
+            <option>Chimney Cleaning</option>
+            <option>Chimney Leak or Repair</option>
+            <option>Dryer Vent Cleaning</option>
+            <option>Fireplace Service</option>
+            <option>Roofing Service</option>
+            <option>Other or Not Sure</option>
+          </select>
+        </label>
+      </div>
+
+      <button class="cs-lead-form__submit" type="submit">
+        Request My Service <span aria-hidden="true">→</span>
+      </button>
+
+      <p class="cs-lead-form__fine-print">
+        Mock Forminator layout for staging. The production form ID, consent
+        language, notifications, CRM delivery, and tracking still require setup.
+      </p>
+    </form>
+
+    <div class="cs-lead-modal__status" role="status" aria-live="polite" data-cs-lead-status hidden>
+      <strong>Preview complete.</strong>
+      <span>No information was sent or stored.</span>
+      <button type="button" data-cs-lead-reset>Return to the form</button>
+    </div>
+
+    <p class="cs-lead-modal__phone">
+      Prefer to call? <a href="tel:+15125012755">(512) 501-2755</a>
+    </p>
+  </div>
+</div>
