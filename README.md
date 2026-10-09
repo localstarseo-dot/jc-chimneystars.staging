@@ -22,7 +22,9 @@ npm run validate
 npm run preview
 ```
 
-Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v7.css`, or `scripts/site-v5.js`.
+Open http://127.0.0.1:8766/. After edits, rebuild and refresh. Do not directly edit generated `index.html`, `styles/site-v8.css`, or `scripts/site-v6.js`.
+
+The main navigation scrolls out of view. The 25% offer bar stays at the top, and the quick name/phone form appears directly beneath it after 300px of scrolling. Forms remain staging previews only.
 
 The hero crossfades every three seconds with a one-second transition. It pauses when off-screen, while the lead modal is open, when the tab is hidden, and for reduced-motion preferences. Credential and payment logos share a horizontal centerline, aligned left under the description. Existing hero spacing and mobile placement are retained.
 

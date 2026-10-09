@@ -10,9 +10,9 @@ for (const name of ['lead-offer', 'site-header', 'site-footer', 'float-actions']
 const html = read('src/document.html').replace('{{page}}', () => page.trim());
 if (/\{\{[\w-]+\}\}/.test(html)) throw new Error('Unresolved template placeholder');
 writeFileSync(path.join(root, 'index.html'), html);
-for (const [from, to] of [['src/styles/site.css', 'styles/site-v7.css'], ['src/scripts/site.js', 'scripts/site-v5.js']]) {
+for (const [from, to] of [['src/styles/site.css', 'styles/site-v8.css'], ['src/scripts/site.js', 'scripts/site-v6.js']]) {
   mkdirSync(path.dirname(path.join(root, to)), { recursive: true });
   copyFileSync(path.join(root, from), path.join(root, to));
 }
 writeFileSync(path.join(root, '.nojekyll'), '');
-console.log('Built index.html, styles/site-v7.css and scripts/site-v5.js. Commit these generated files with the source.');
+console.log('Built index.html, styles/site-v8.css and scripts/site-v6.js. Commit these generated files with the source.');
