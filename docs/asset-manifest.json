@@ -1,8 +1,8 @@
 {
   "source_document": "chimney-stars.html",
-  "asset_count": 67,
-  "source_asset_bytes": 86839372,
-  "packaged_asset_bytes": 5934189,
+  "asset_count": 69,
+  "source_asset_bytes": 86980496,
+  "packaged_asset_bytes": 5949713,
   "images": [
     {
       "source": "assets/brand/Chimney Star Monochrome Logo (1).png",
@@ -606,6 +606,24 @@
       "source_bytes": 47880,
       "packaged_bytes": 2064,
       "sha256": "e7cc91fa4cceeef9f6ecb26852abb7babdf2e6b7e74bc7ac13fe3daced77a18c"
+    },
+    {
+      "source": "assets/monochrome-trust-badges/GBP-Review.webp",
+      "packaged": "assets/brand/google-reviews-color.webp",
+      "width": 220,
+      "height": 110,
+      "source_bytes": 124488,
+      "packaged_bytes": 8350,
+      "sha256": "a31e453169b910a565c7a90fec666ae1baaa93c6860b6d78e0a7a007ffad0175"
+    },
+    {
+      "source": "assets/monochrome-trust-badges/clipart3612357.webp",
+      "packaged": "assets/brand/yelp-reviews-color.webp",
+      "width": 176,
+      "height": 120,
+      "source_bytes": 16636,
+      "packaged_bytes": 7174,
+      "sha256": "0ac588b13414530a378612f05ecad48998c2f36640ad51b1e48cb33f63e16f44"
     }
   ],
   "adapted_links": [

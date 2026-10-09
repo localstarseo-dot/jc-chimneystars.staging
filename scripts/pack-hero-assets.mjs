@@ -34,6 +34,8 @@ for (const name of readdirSync(path.join(supplied, 'photos/Black Uniform')).filt
 for (const name of ['visa-color-white-bg', 'mastercard-color-transparent', 'american-express-color-transparent', 'discover-color-white-bg']) {
   await pack(`payment-card-logos-svg-webp (1)/${name}.webp`, `assets/payments/${name}.webp`, 160, 104);
 }
+await pack('monochrome-trust-badges/GBP-Review.webp', 'assets/brand/google-reviews-color.webp', 220);
+await pack('monochrome-trust-badges/clipart3612357.webp', 'assets/brand/yelp-reviews-color.webp', 176);
 const replaced = new Set(entries.map(entry => entry.packaged));
 manifest.images = manifest.images.filter(entry => !replaced.has(entry.packaged)).concat(entries);
 manifest.asset_count = manifest.images.length;
